@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: Inter;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  gap: 1rem;
+  margin: 2rem 2rem;
+
+}
+
+
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #333333;
+}
+
+button {
+  font-family: Inter;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border: 2px solid #27ae60;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 16px;
+  height: 40px;
+  width: 106px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: #93D7AF;
+  border-color: #93D7AF;
+}
+
+main {
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+@media (min-width: 840px) {
+  .mainContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  main {
+    width: 70%;
+  }
+
+  aside {
+    align-items: flex-end;
+    width: 30%;
+
+  }
+}
