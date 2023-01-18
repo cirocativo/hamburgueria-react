@@ -1,3 +1,10 @@
+# Website de Hamburgueria 
+
+Projeto que simula um site de vendas de sanduíches e bebidas. O site é responsivo e apresenta uma barra inicial para pesquisa, área de carrinho de compras, e área dos cards de produtos.
+
+Foram utilizados conhecimentos de React, HTML, CSS, Javascript. [Link para projeto](https://react-entrega-s1-hamburgueria-da-kenzie-cirocativo.vercel.app/).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
